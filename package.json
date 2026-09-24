@@ -1,0 +1,25 @@
+{
+  "name": "jev-decision-fabric",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Typed probabilistic decision infrastructure built around TypeSafe AI Jev.",
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/api.js",
+    "dev": "tsx src/api.ts",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts --demo",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {"@typesafe-ai/sdk": "^0.6.0"},
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
