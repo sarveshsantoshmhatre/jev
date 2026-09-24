@@ -1,0 +1,8 @@
+{
+  "message": "I was charged twice for the same subscription and need the duplicate payment reversed today.",
+  "customerTier": "pro",
+  "previousEvents": [
+    "Subscription renewed successfully 2 days ago",
+    "Payment processor shows two captures for the same invoice"
+  ]
+}
